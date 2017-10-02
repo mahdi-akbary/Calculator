@@ -2,31 +2,31 @@
 <div class="display">{{display}}</div>
 <div class="result">{{resultDisplay}}</div>
 <div class="row">
-  <button md-raised-button (click) = "entered('1'); isOpClicked = true">1</button>
-  <button md-raised-button (click) = "entered('2'); isOpClicked = true">2</button>
-  <button md-raised-button (click) = "entered('3'); isOpClicked = true">3</button>
-  <button md-raised-button (click) = "isOpClicked ? operate('+') : ''">+</button>
+  <button md-raised-button class = "button" (click) = "entered('1'); isOpClicked = true">1</button>
+  <button md-raised-button class = "button" (click) = "entered('2'); isOpClicked = true">2</button>
+  <button md-raised-button class = "button" (click) = "entered('3'); isOpClicked = true">3</button>
+  <button md-raised-button class = "button" (click) = "isOpClicked ? operate('+') : ''">+</button>
 </div>
 
 <div class="row">
-  <button md-raised-button (click) = "entered('4'); isOpClicked = true">4</button>
-  <button md-raised-button (click) = "entered('5'); isOpClicked = true">5</button>
-  <button md-raised-button (click) = "entered('6'); isOpClicked = true">6</button>
-  <button md-raised-button (click) = "isOpClicked ? operate('-') : ''">-</button>
+  <button md-raised-button class = "button" (click) = "entered('4'); isOpClicked = true">4</button>
+  <button md-raised-button class = "button" (click) = "entered('5'); isOpClicked = true">5</button>
+  <button md-raised-button class = "button" (click) = "entered('6'); isOpClicked = true">6</button>
+  <button md-raised-button class = "button" (click) = "isOpClicked ? operate('-') : ''">-</button>
 </div>
 
 <div class="row">
-  <button md-raised-button (click) = "entered('7'); isOpClicked = true">7</button>
-  <button md-raised-button (click) = "entered('8'); isOpClicked = true">8</button>
-  <button md-raised-button (click) = "entered('9'); isOpClicked = true">9</button>
-  <button md-raised-button (click) = "isOpClicked ? operate('*') : ''">*</button>
+  <button md-raised-button class = "button" (click) = "entered('7'); isOpClicked = true">7</button>
+  <button md-raised-button class = "button" (click) = "entered('8'); isOpClicked = true">8</button>
+  <button md-raised-button class = "button" (click) = "entered('9'); isOpClicked = true">9</button>
+  <button md-raised-button class = "button" (click) = "isOpClicked ? operate('*') : ''">*</button>
 </div>
 
 <div class="row">
-  <button md-raised-button (click) = "entered('0'); isOpClicked = true">0</button>
-  <button md-raised-button (click) = "isOpClicked ? operate('/') : ''">/</button>
-  <button md-raised-button (click) = "entered('.'); isOpClicked = true">.</button>
-  <button md-raised-button (click) = "clearAll()">C</button>
+  <button md-raised-button class = "button" (click) = "entered('0'); isOpClicked = true">0</button>
+  <button md-raised-button class = "button" (click) = "isOpClicked ? operate('/') : ''">/</button>
+  <button md-raised-button class = "button" (click) = "entered('.'); isOpClicked = true">.</button>
+  <button md-raised-button class = "button" (click) = "clearAll()">C</button>
 </div>
 <div class="row">
   <button style="width: 100%;" md-raised-button (click) = "equalsTo('=')">=</button>
