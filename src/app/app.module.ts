@@ -3,12 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+
+import {MatButtonModule, MatCardModule} from '@angular/material';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatCardModule,
+    MatButtonModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
