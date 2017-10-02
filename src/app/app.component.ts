@@ -47,6 +47,9 @@ export class AppComponent {
   }
   equalsTo() {
     this.result = this.resultDisplay;
+    this.operator = '';
+    this.strNum = '';
+    this.display = this.result.toString();
   }
   clearAll() {
     this.display = '';
